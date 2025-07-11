@@ -8,4 +8,8 @@ class ReportScammer(StatesGroup):
     phone_number = State()
     image = State()
     proof = State()
-    amount = State()
+    amount = State() 
+
+class Appeal(StatesGroup):
+    reason = State()
+    proof = State()
